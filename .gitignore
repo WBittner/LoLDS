@@ -1,0 +1,6 @@
+# node generated folder
+node_modules
+typings
+
+# generated js
+*.js

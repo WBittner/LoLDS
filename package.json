@@ -1,0 +1,29 @@
+{
+  "name": "lolds",
+  "version": "1.0.0",
+  "description": "TypeScript wrapper for LoL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon tst/server.js",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://WBittner@github.com/WBittner/LoLDS.git"
+  },
+  "author": "William Bittner",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WBittner/LoLDS/issues"
+  },
+  "homepage": "https://github.com/WBittner/LoLDS#readme",
+  "dependencies": {
+    "@types/request-promise": "^4.1.33",
+    "bluebird": "^3.4.6",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.76.0",
+    "request-promise": "^4.1.1",
+    "typescript": "^2.0.6"
+  }
+}
